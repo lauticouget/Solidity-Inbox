@@ -3,8 +3,6 @@ const ganache = require("ganache-cli");
 const Web3 = require("web3");
 const web3 = new Web3(ganache.provider());
 
-"use strict";
-
 class Car {
   park() {
     return "stopped";
@@ -14,18 +12,18 @@ class Car {
   }
 }
 
-let car;
+// let car;
 
-beforeEach(() => {
-  car = new Car();
-});
+// beforeEach(() => {
+//   car = new Car();
+// });
 
-describe("Car", () => {
-  it("can park", () => {
-    assert.strictEqual(car.park(), "stopped");
-  });
+// describe("Car", () => {
+//   it("can park", () => {
+//     assert.strictEqual(car.park(), "stopped");
+//   });
 
-  it("can drive", () => {
-    assert.strictEqual(car.drive(), "vroom");
-  });
-});
+//   it("can drive", () => {
+//     assert.strictEqual(car.drive(), "vroom");
+//   });
+// });
