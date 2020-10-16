@@ -9,7 +9,7 @@
   "author": "lauticouget@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "ganache-cli": "^6.10.1",
+    "ganache-cli": "^6.12.0",
     "install": "^0.13.0",
     "mocha": "^8.1.3",
     "solc": "^0.4.17",
